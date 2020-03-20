@@ -1,0 +1,86 @@
+form ol { 
+    list-style-type:none; 
+}
+
+form 	{ 
+    text-align:left; 
+    margin:20px;
+}
+
+label { 
+    float: left; 
+    width: 250px; 
+    margin-top:5px;
+	text-align:right; 
+    display:block; 
+    background:none; 
+    font-weight:bold;
+}
+	
+.submit { 
+    height: 25px;
+    width: 90px;
+    border: 2px blue solid;
+    border-radius: 20px;
+    border-bottom: none;
+    background-color: aquamarine; 
+    margin-left:350px;
+    font-size:12px;
+}
+
+input { 
+	width: 280px; 
+    margin:0 0 16px 10px;
+	border:2px blue solid;
+    padding:5px; 
+    background:none;
+    border-radius: 10px;
+}
+
+textarea {
+	width: 280px; 
+    height: 150px; 
+    margin:0 0 16px 10px;
+	border:2px blue solid; 
+    padding:5px; 
+    background:none; 
+    border-radius: 10px;
+	}
+
+select { 
+    width: 280px; 
+    height: 30px; 
+    margin:0 0 16px 10px;
+	border:2px blue solid;
+    border-radius: 10px;
+    background:none;	
+}
+
+br { 
+    clear: left; 	
+}
+
+
+.formh1 {
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.formh2 {
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.formp {
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.formh4 {
+    color: red;
+    text-decoration: underline;
+    text-align: center;
+}

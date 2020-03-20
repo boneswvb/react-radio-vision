@@ -1,0 +1,43 @@
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows:auto;
+    padding: 20px;
+}
+
+.header {
+    grid-column: 1 / 10;
+    grid-row: 1;
+	text-align: center;
+}
+
+.adress {
+    grid-column: 10 / 13;
+    grid-row: 1;
+}
+
+.topnav {
+    grid-column: 1 / 13;
+}
+
+.slider {
+    grid-column: 1 / -1;
+}
+
+.subbanner {
+    grid-column: 1 / 13;
+}
+
+.content {
+    grid-column: 1 / 10;
+}
+
+.rightside {
+    grid-column: 10 / 13;
+}
+
+.footer {
+    grid-column: 1 / 13;
+}
+
