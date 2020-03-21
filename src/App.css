@@ -20,11 +20,19 @@ a:active {
   color: yellow;
 }
 
+br {
+  clear: both;
+}
+
 button{
   border: 3px blue solid;
   border-radius: 20px;
   border-bottom: none;
   background-color: aquamarine;
+}
+
+li {
+  list-style: none;
 }
 
 .header-container {
@@ -37,10 +45,12 @@ button{
 }
 
 .logo {
-  font-size: 5em; 
+  margin: 0;
+  font-size: 7em; 
 }
 
 .adress {
+  margin: 0;
 	width: 34%;
   text-align: center;
   font-style: italic;
@@ -48,31 +58,65 @@ button{
   line-height: 120%;
 }
 
+.subbanner {
+  font-size: 1.5em;
+  background-color: lightblue;
+  text-align: center;
+  padding: 1px;
+}
+
+.brandsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.listleft {
+  text-align: center;
+  width: 20%;
+}
+
+.listright {
+  text-align: center;
+  width: 20%;
+  list-style-type: none;
+}
+
+.pic {
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
+  border: 2px red solid;
+  margin: 2px;
+  -webkit-box-shadow: 14px 13px 28px 0px rgba(0,0,0,0.34); 
+  box-shadow: 14px 13px 28px 0px rgba(0,0,0,0.34);
+}
+
 .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 200px;
-    z-index: 1;
+  display: none;
+  position: absolute;
+  min-width: 200px;
+  z-index: 1;
 }
 
 .dropdown-content a {
-    background-color:aquamarine;
-    border: 1px blue solid;
-    border-radius: 10px;
-    padding: 5px 10px;
-    text-decoration: none;
-    display: block;
+  background-color:aquamarine;
+  border: 1px blue solid;
+  border-radius: 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+  display: block;
 }
 
 .dropdown-content a:hover {
-    background-color: aqua;
+  background-color: aqua;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }

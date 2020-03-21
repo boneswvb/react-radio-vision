@@ -1,16 +1,13 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 const Footer = () => {
 	return (
 		<div className="tc footer-container">
 			<div className="footer">
 	      <div>
-	        <button>
-	        	<a href="about.html">Back To Top</a>
-        	</button>
-	        <button>
-	        	<a href="index.html">Home Page</a>
-        	</button>
+	        <Link to="/"><button>Back To Top</button></Link>
+	        <Link to="/"><button>Home Page</button></Link>
 	      </div>
 				<p>&copy;Designed by Wim von Benecke - 071  099 2811. Email: 
 					<a href="mailto:info@lesawi.co.za"> Wim von Benecke</a>

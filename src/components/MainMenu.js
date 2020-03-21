@@ -1,45 +1,39 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 const MainMenu = () => {
 	return(
 		<div className="topnav">	
-      <button className="navbutton">
-      	<a href="index.html">Welcome</a>
-    	</button>
-			<button className="navbutton">
-				<a href="about.html">About</a>
-			</button>
-			<div className="dropdown">
-        <button className="navbutton">
-        	<a href="products.html">Products</a>
-      	</button>
-	      <div className="dropdown-content">
-	        <a href="products.html#DomesticFridges">Domestic Fridges</a>
-	        <a href="products.html#DomesticFreezers">Domestic Freezers</a>
-	        <a href="products.html#CommercialFridges">Commercial Fridges</a>
-	        <a href="products.html#CommercialFreezers">Commercial Freezers</a>
-	        <a href="products.html#CommercialDeepFreezers">Commercial Deep Freezers</a>
-	        <a href="products.html#IcecreamFreezers">Icecream Freezers</a>
-	        <a href="products.html#BackOfBarFridges">Back Of Bar Fridges</a>
+			<div className="subbanner" id="subbanner">
+				<h3>Digital Electronics</h3>
+			</div> 
+			<div>
+	      <Link to="/"><button className="navbutton">Welcome</button></Link>    	
+				<Link to="/about"><button className="navbutton">About</button></Link>
+				<div className="dropdown">
+	        <Link to="/products"><button className="navbutton">Products</button></Link>
+		      <div className="dropdown-content">
+		        <a href="products.html#DomesticFridges">Domestic Fridges</a>
+		        <a href="products.html#DomesticFreezers">Domestic Freezers</a>
+		        <a href="products.html#CommercialFridges">Commercial Fridges</a>
+		        <a href="products.html#CommercialFreezers">Commercial Freezers</a>
+		        <a href="products.html#CommercialDeepFreezers">Commercial Deep Freezers</a>
+		        <a href="products.html#IcecreamFreezers">Icecream Freezers</a>
+		        <a href="products.html#BackOfBarFridges">Back Of Bar Fridges</a>
 	      	</div>                      
-      </div>            
-      <button className="navbutton">
-      	<a href="services.html">Services</a>
-      </button>
-      <button className="navbutton">
-      	<a href="contacts.html">Contacts</a>
-      </button>            
-	    <div className="dropdown">
-	      <button className="navbutton">
-	      	<a href="forms.html">Forms</a>
-	      </button>                
-	    <div className="dropdown-content">        
-	      <a href="forms.html#serviceCall">Service Call</a>
-	      <a href="form2.html#generalInquiryForm">General Inquiry Form</a>
-	      <a href="form3.html#productQuoteForm">Product Quote Form</a>        
-	    </div>                
-	  </div> 
-	</div>
+	      </div>            
+	      <Link to="/services"><button className="navbutton">Services</button></Link>
+	      <Link to="/contacts"><button className="navbutton">Contacts</button></Link>            
+		    <div className="dropdown">
+	      	<Link to="/forms"><button className="navbutton">Forms</button></Link>                
+			    <div className="dropdown-content">        
+			      <a href="forms.html#serviceCall">Service Call</a>
+			      <a href="form2.html#generalInquiryForm">General Inquiry Form</a>
+			      <a href="form3.html#productQuoteForm">Product Quote Form</a>        
+			    </div>                
+			  </div> 
+			</div>
+		</div>
 	)
 }
 
