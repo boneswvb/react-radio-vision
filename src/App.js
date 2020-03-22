@@ -10,9 +10,8 @@ import Products from './pages/Products'
 import Services from './pages/Services'
 import Contacts from './pages/Contacts'
 import Forms from './pages/Forms'
-
-// import Form2 from './pages/Form2'
-// import Form3 from './pages/Form3'
+import Form2 from './pages/Form2'
+import Form3 from './pages/Form3'
 
 import './App.css';
 
@@ -39,6 +38,12 @@ function App() {
         </Route> 
         <Route path="/forms">
           <Forms />
+        </Route> 
+        <Route path="/form2">
+          <Form2 />
+        </Route> 
+        <Route path="/form3">
+          <Form3 />
         </Route>                 
       </Switch>
       <Footer />
@@ -47,6 +52,3 @@ function App() {
 }
 
 export default App;
-
-// <Form2 />
-// <Form3 />

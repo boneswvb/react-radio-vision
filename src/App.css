@@ -2,6 +2,7 @@ h1, h2, h3{
   color: blue;
   text-decoration: underline;
   clear: both;
+  text-align: center;
 }
 
 a:link {
@@ -119,4 +120,72 @@ li {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.map {
+  border: 1px black solid;
+  border-radius: 20px;
+  border: 2px blue solid;
+}
+
+form ol { 
+  list-style-type: none; 
+}
+
+form  { 
+  text-align: left; 
+  margin: 20px;
+}
+
+label { 
+  width: 250px; 
+  margin-top: 5px; 
+  font-weight: bold;
+}
+  
+.submit { 
+  height: 25px;
+  width: 90px;
+  border: 2px blue solid;
+  border-radius: 20px;
+  border-bottom: none;
+  background-color: aquamarine; 
+  font-size:12px;
+}
+
+input { 
+  width: 280px; 
+  margin:0 0 16px 10px;
+  border:2px blue solid;
+  padding:5px; 
+  background:none;
+  border-radius: 10px;
+}
+
+textarea {
+  vertical-align: text-top;
+  width: 280px; 
+  height: 150px; 
+  margin:0 0 16px 10px;
+  border:2px blue solid; 
+  padding:5px; 
+  background:none; 
+  border-radius: 10px;
+  }
+
+select { 
+  width: 280px; 
+  height: 30px; 
+  margin:0 0 16px 10px;
+  border:2px blue solid;
+  border-radius: 10px;
+  background:none;  
+}
+
+.footer {
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  color: darkblue;
+  background-color: lime;
 }
