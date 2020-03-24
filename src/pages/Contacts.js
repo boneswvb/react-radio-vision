@@ -18,7 +18,7 @@ const Contacts = () => {
 			<div id="maps">
 				<img className="map" id="map" alt="directions to Radio Vision" src={contactsImg} />
 				<form className="tc" action="http://maps.google.com/maps" method="get" target="_blank">
-					<label for="saddr">Enter your location. Street and town. Then click "Get directions"</label>
+					<label htmlFor="saddr">Enter your location. Street and town. Then click "Get directions"</label>
 					&nbsp;
 					<input type="hidden" name="daddr" value="40 Mostart street, Nelspruit, 1200" />
 					<br />

@@ -2,8 +2,8 @@ import React from 'react'
 
 const About = () => {
 	return(
-		<div class="tc container">
-			<div class="content">
+		<div className="tc container">
+			<div className="content">
 				<h1>About Radio Vision.</h1>
 				<p>We service most electronic and major appliances.</p>
 				<p>The company was started in 1984 By Deon Schoültz in Voortrekker street Nelspruit where the company operated for 

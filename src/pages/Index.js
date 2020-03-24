@@ -1,4 +1,4 @@
-import React from 'react'
+import React  from 'react'
 import services5 from '../images/services5.png';
 import services1 from '../images/services1.png';
 import services6 from '../images/services6.png';

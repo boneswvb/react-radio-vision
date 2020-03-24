@@ -11,3 +11,10 @@ Update 2
 	and completed index.js 
 	Dropdown menus links to be updated as pages are done. 
 	Footer buttons to be update once all pages done
+
+Update 3
+22-03-2020 10:39 
+updated all static content on pages. 
+Products page not updaed. 
+All links for all pages except products now working. 
+Photos added to home and services pages to be changed and inserted more dnamically.

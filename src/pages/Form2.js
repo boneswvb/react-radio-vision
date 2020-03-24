@@ -1,30 +1,36 @@
 import React from 'react'
 
-const Form2 = () => {
+const Form2 = (props) => {
+	console.log("wim", props)
 	return(
 		<div>
-			<form className="tc" name="generalEnquiry" method="POST" action="http://free.allforms.mailjol.net/u/422a2f17.php" autocomplete="on">
+			<form className="tc" name="generalEnquiry" method="POST" action="http://free.allforms.mailjol.net/u/422a2f17.php" autoComplete="on">
 				<h1 className="formh1" id="generalInquiryForm">General Inquiry Form</h1>
 				<h2 className="formh2">Please complete all the fields.</h2>
 				<h4 className="formh4">* = Required field</h4>  
 				<ol>
 					<li>
-						<label for="name">Name*:</label> 
-						<input type="text" name="name" placeholder="First Name And Surname" id="name" required />
+						<label htmlFor="namese">Name*:</label> 
+						<input 
+							type="text" 
+							name="fullName" 
+							placeholder="First Name And Last Name"
+							required />
 					</li>
 					<li>
-						<label for="email">E-mail*:</label>
+						<label htmlFor="email">E-mail*:</label>
 						<input type="email" name="email" placeholder="Example@example.co.za" id="email" required />
 					</li>
 					<li>
-						<label for="contactNumber">Contact Number*:</label>
+						<label htmlFor="contactNumber">Contact Number*:</label>
 						<input type="text" name="Contact Number"  placeholder="Cell Phone is Prefered" id="contactNumber" required />
 					</li>
 					<br />
 					<li>
-						<label for="typeOfEnquiry">Type of enquiry?*:</label>
+						<label htmlFor="typeOfEnquiry">Type of enquiry?*:</label>
 							<select name="typeOfEnquiry" required>
-								<option value="General" selected>General</option>
+								<option value="selectOne">--Select One--</option>
+								<option value="General">General</option>
 								<option value="Product">Product</option>
 								<option value="CallOut">Call Out</option>
 								<option value="Insurance">Insurance</option>
@@ -35,14 +41,15 @@ const Form2 = () => {
 					</li>
 					<br />
 					<li>
-						<label for="comment">Comment*:</label>
+						<label htmlFor="comment">Comment*:</label>
 						<textarea name="comment" rows="5" cols="40"placeholder="Your full query. Please give as much detail as posible." 
 							id="comment" required />
 					</li>
 					<li>
-						<label for="hearAboutUs">How did you hear about us?</label>
-							<select name="How did you hear about us" id="hearAboutUs" required>
-								<option value="Long standing customer" selected>Long standing customer</option>
+						<label htmlFor="hearAboutUs">How did you hear about us?</label>
+							<select name="HowDidYouHearAboutUs" id="hearAboutUs" required>
+								<option value="selectOne">--Select One--</option>
+								<option value="Long standing customer">Long standing customer</option>
 								<option value="Facebook">Facebook</option>
 								<option value="Word of mouth">Word of mouth</option>
 								<option value="Internet">Internet</option>
@@ -50,7 +57,7 @@ const Form2 = () => {
 						</select>
 					</li>
 					<li>
-						<input type="submit" class="submit" id="submit" name="submit" value="Submit" />
+						<input type="submit" className="submit" id="submit" name="submit" value="Submit" />
 					</li> 
 				</ol>  
 			</form>	
@@ -59,3 +66,14 @@ const Form2 = () => {
 }
 
 export default Form2
+
+// <p>First Name</p>
+// 					<input 
+// 					type="text" 
+// 					name="firtsName" 
+// 					value={ props.data.firtsName } 
+// 					placeholder="Firts Name" 
+// 					onChange={ props.handleChange } 	
+// 					/>
+// <hr />
+// 			<p>Your name: { props.data.fullName }</p>
