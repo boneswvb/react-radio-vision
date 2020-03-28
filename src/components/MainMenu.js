@@ -27,9 +27,9 @@ const MainMenu = () => {
 		    <div className="dropdown">
 	      	<Link to="/forms"><button className="navbutton">Forms</button></Link>                
 			    <div className="dropdown-content">        
-			      <Link to="/forms">Service Call</Link>
-			      <Link to="/form2">General Inquiry Form</Link>
-			      <Link to="/form3">Product Quote Form</Link>       
+			      <Link to="/ServiceCallForm">Service Call</Link>
+			      <Link to="/GeneralInquiryForm">General Inquiry Form</Link>
+			      <Link to="/FridgeFreezerEnquiry">Product Quote Form</Link>       
 			    </div>                
 			  </div> 
 			</div>

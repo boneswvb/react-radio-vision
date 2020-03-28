@@ -9,9 +9,9 @@ import About from './pages/About'
 import Products from './pages/Products'
 import Services from './pages/Services'
 import Contacts from './pages/Contacts'
-import Forms from './pages/Forms'
-import Form2 from './pages/Form2'
-import Form3 from './pages/Form3'
+import ServiceCallForm from './components/ServiceCallForm'
+import GeneralInquiryForm from './components/GeneralInquiryForm'
+import FridgeFreezerEnquiry from './components/FridgeFreezerEnquiry'
 
 import './App.css';
 
@@ -36,14 +36,14 @@ function App() {
         <Route path="/contacts">
           <Contacts /> 
         </Route> 
-        <Route path="/forms">
-          <Forms />
+        <Route path="/ServiceCallForm">
+          <ServiceCallForm />
         </Route> 
-        <Route path="/form2">
-          <Form2 />
+        <Route path="/GeneralInquiryForm">
+          <GeneralInquiryForm />
         </Route> 
-        <Route path="/form3">
-          <Form3 />
+        <Route path="/FridgeFreezerEnquiry">
+          <FridgeFreezerEnquiry />
         </Route>                 
       </Switch>
       <Footer />
