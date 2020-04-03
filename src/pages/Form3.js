@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Form3 = (props) => {
-		console.log("wim", props)
 	return(
 		<div>
 			<form className="tc" name="fridgeFreezerEnquiry" method="POST" action="http://free.allforms.mailjol.net/u/422a2f17.php" 
@@ -107,8 +106,8 @@ const Form3 = (props) => {
 					name="comment" 
 					rows="5" 
 					cols="40"
-					placeholder="Please give us a full description of your unit. I.e. Make, 
-						Model, Type and what is the fault. We will call you to make an appointment." 
+					placeholder="Please give us a full description of the unit you need a price for. I.e. Make, 
+						Model, Quantity and Type." 
 					value={ props.data.comment }
 					onChange={ props.handleChange} 
 					required />
