@@ -139,10 +139,10 @@ const fridgePrice = "Add to chart and submit for a quote";
 	},
 	{
 		id: "16",
-		url: "Capacity: 720L. Pre-painted Galvanised Steel External & Internal. Lighting LED. Temperature range 2-8°C &lt;= 32°C. 7 x 330ml can facing per shelf.",
+		url: "images/comfridge(6)b.png",
 		modelNum: "ES1135",
 		type: "Commercial Fridges",
-		description: "images/comfridge(6)b.png",
+		description: "Capacity: 720L. Pre-painted Galvanised Steel External & Internal. Lighting LED. Temperature range 2-8°C &lt;= 32°C. 7 x 330ml can facing per shelf.",
 		price: fridgePrice,
 		isFavorite: false
 	},
