@@ -12,10 +12,10 @@ const Services = () => {
 		<p>For service on most major brands Radio Vision is the right place to contact. </p>
 		<h2>Insurance assessments</h2>
 		<img alt="pic" className="pic" src={services5} />
-			<img alt="pic" className="pic" src={services1} />
-			<img alt="pic" className="pic" src={services6} />
-			<img alt="pic" className="pic" src={services7} />
-			<img alt="pic" className="pic" src={services8} />
+		<img alt="pic" className="pic" src={services1} />
+		<img alt="pic" className="pic" src={services6} />
+		<img alt="pic" className="pic" src={services7} />
+		<img alt="pic" className="pic" src={services8} />
 		<p>We work with almost all of the insurance companies in our area and is up to date with their requirements 
 			for quotes.</p>
 		<p className="under">We will assess the unit and provide you with a quote stating the below.</p>

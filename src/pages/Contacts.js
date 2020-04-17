@@ -1,6 +1,6 @@
 import React from 'react'
 
-import contactsImg from '../images/contacts.png';
+import contacts from '../images/contacts.png';
 
 const Contacts = () => {
 	return(
@@ -16,7 +16,7 @@ const Contacts = () => {
 				<p>We are the second building from the corner.</p>
 			</div>
 			<div id="maps">
-				<img className="map" id="map" alt="directions to Radio Vision" src={contactsImg} />
+				<img className="map" id="map" alt="directions to Radio Vision" src={contacts} />
 				<form className="tc" action="http://maps.google.com/maps" method="get" target="_blank">
 					<label htmlFor="saddr">Enter your location. Street and town. Then click "Get directions"</label>
 					&nbsp;
