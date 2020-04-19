@@ -1,9 +1,9 @@
 import React from 'react'
 
-const DomesticFridges = ({id, url, modelNum, type, description, price, isFavorite}) => {
+const CommercialFridges = ({id, url, modelNum, type, description, price, isFavorite}) => {
 		return (
 		<div>
-			<div className="refpic" id="refpic">
+			<div className="refpic1" id="refpic">
         <h3>Model numumber: {modelNum} - {type}</h3>	
         <img className="fridgepic" alt={type} src={url} />					
         <p>Description: {description}</p>
@@ -13,4 +13,4 @@ const DomesticFridges = ({id, url, modelNum, type, description, price, isFavorit
 	)
 }
 
-export default DomesticFridges
+export default CommercialFridges

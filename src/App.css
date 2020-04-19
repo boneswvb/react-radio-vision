@@ -189,3 +189,33 @@ select {
   color: darkblue;
   background-color: lime;
 }
+
+.refpic{
+  display: inline-block;
+  width: 30%;
+  margin-bottom: 5px;
+  border: 3px blue solid;
+  border-radius: 30px;
+  line-height: 100%;
+  font-size: 16px;
+}
+
+.fridgepic {
+  height: auto;
+  width:75px;
+}
+
+.refpic1{
+  width: 30%;
+  display: inline-block;
+  margin-bottom: 5px;
+  border: 3px blue solid;
+  border-radius: 30px;
+  line-height: 100%;
+  font-size: 12px;
+}
+
+.freezpic {
+  height: 220px;
+  width: 200px;
+}

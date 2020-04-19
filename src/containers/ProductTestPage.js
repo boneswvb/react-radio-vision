@@ -12,26 +12,8 @@ const ProductTestPage = () => {
             Delivery in Nelspruit and White River only.</p>
         </div>
         <div class="pictureSetup">
-
-      <h1 id="DomesticFridges">Domestic Fridges</h1>
-
-        <div class="refpic" id="refpic">
-          <h3></h3>					
-          <img class="fridgepic" alt="" src="" />					
-          <p></p>
-          <h3></h3>
-        </div>
-
-
-      <h1 id="DomesticFreezers">Domestic Freezers</h1>
-
-        <div class="refpic1" id="refpic">
-          <h3></h3>
-          <img class="freezpic" alt="" src="" />
-          <p></p>
-          <h3></h3>
-        </div>
-
+        
+     
       <h1 id="CommercialFridges">Commercial Fridges</h1>
       
         <div class="refpic1" id="refpic">

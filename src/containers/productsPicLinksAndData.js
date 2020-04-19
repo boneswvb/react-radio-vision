@@ -3,7 +3,7 @@ const fridgePrice = "Add to chart and submit for a quote";
 const productsPicLinksAndData = [
 	{
 		id: "1",
-		url: "domfridge2b.png",
+		url: "http://radiovision.co.za/images/domfridge%20(2)b.png",
 		modelNum: "BN225",
 		type: "Domestic Fridges",
 		description: "Capacity: 201L. Reinforced Steel Door Hinges. Hidden Evaporator Plate. Chromadek Steel External Sides.",
@@ -12,7 +12,7 @@ const productsPicLinksAndData = [
 	},
 	{
 		id: "2",
-		url: "../images/domfridge(3)b.png",
+		url: "http://radiovision.co.za/images/domfridge%20(3)b.png",
 		modelNum: "BS270",
 		type: "Domestic Fridges",
 		description: "Capacity: 257L. Chromadek Steel External Sides. Ice Lined Evaporator. Reinforced Steel Door Hinges.",
@@ -21,7 +21,7 @@ const productsPicLinksAndData = [
 	},
 	{
 		id: "3",
-		url: "../images/domfridge(4)b.png",
+		url: "http://radiovision.co.za/images/domfridge%20(4)b.png",
 		modelNum: "BS420",
 		type: "Domestic Fridges",
 		description: "Capacity: 313L. Internal Evaporator Plate. Reinforced Steel Door Hinges. 4.0 Liter Non-Plumbed water dispenser.",
@@ -30,16 +30,16 @@ const productsPicLinksAndData = [
 	},
 	{
 		id: "4",
-		url: "../images/domfridge(5)b.png",
+		url: "http://radiovision.co.za/images/domfridge%20(5)b.png",
 		modelNum: "TS180",
-		type: "../Domestic Fridges",
+		type: "Domestic Fridges",
 		description: "Capacity: 176L. Chromadek Cabinet and Plastic Interior. Static Ice Lined Evaporator. Durable Hinges For Easy Opening.",
 		price: fridgePrice,
 		isFavorite: false
 	},
 	{
 		id: "5",
-		url: "../images/domfridge(1)b.png",
+		url: "http://radiovision.co.za/images/domfridge%20(1)b.png",
 		modelNum: "TS180M",
 		type: "Domestic Fridges",
 		description: "Capacity: 162L. Static Ice Lined Evaporator. Chromadek Cabinet and Plastic Interior. Durable Hinges For Easy Opening.",
@@ -48,7 +48,7 @@ const productsPicLinksAndData = [
 	},
 	{
 		id: "6",
-		url: "../images/domfreez(2)b.png",
+		url: "http://radiovision.co.za/images/domfreez%20(2)b.png",
 		modelNum: "CF210",
 		type: "Domestic Freezers",
 		description: "Capacity: 194L. Pre-painted Galvanised Steel External Sides & Internal. Durable Marble Patterned Lid. Ice Lined Evaporator With Static Rear Condenser.  Flap Hinges For Easy Opening.",
@@ -57,7 +57,7 @@ const productsPicLinksAndData = [
 	},
 	{
 		id: "7",
-		url: "../images/domfreez(3)b.png",
+		url: "http://radiovision.co.za/images/domfreez%20(3)b.png",
 		modelNum: "CF210M",
 		type: "Domestic Freezer",
 		description: "Capacity: 194L. Pre-painted Galvanised Steel External Sides & Internal. Durable Marble Patterned Lid. Ice Lined Evaporator With Static Rear Condenser.  Flap Hinges For Easy Opening.",
@@ -66,7 +66,7 @@ const productsPicLinksAndData = [
 	},
 	{
 		id: "8",
-		url: "../images/domfreez(4)b.png",
+		url: "http://radiovision.co.za/images/domfreez%20(4)b.png",
 		modelNum: "CF310",
 		type: "Domestic Freezer",
 		description: "Capacity: 292L. Pre-painted Galvanised Steel External Sides & Internal. Durable Marble Patterned Lid. Ice Lined Evaporator With Static Rear Condenser. Flap Hinges For Easy Opening.",
@@ -75,7 +75,7 @@ const productsPicLinksAndData = [
 	},
 	{
 		id: "9",
-		url: "../images/domfreez(5)b.png",
+		url: "http://radiovision.co.za/images/domfreez%20(5)b.png",
 		modelNum: "CF485",
 		type: "Domestic Freezer",
 		description: "Capacity: 433L. Pre-painted Galvanised Steel External Sides & Internal. Durable Marble Patterned Lid. Ice Lined Evaporator With Static Rear Condenser. SABS Approved Key Lock. Spring Assisted Steel Hinges For Easy Opening.",
@@ -84,7 +84,7 @@ const productsPicLinksAndData = [
 	},
 	{
 		id: "10",
-		url: "../images/domfreez(6)b.png",
+		url: "http://radiovision.co.za/images/domfreez%20(6)b.png",
 		modelNum: "CF535M",
 		type: "Domestic Freezer",
 		description: "Capacity: 535L. Pre-painted Galvanised Steel External Sides &;Internal. Durable Marble Patterned Lid. Ice Lined Evaporator With Static Rear Condenser. SABS Approved Key Lock. Spring Assisted Steel Hinges For Easy Opening.",
@@ -93,7 +93,7 @@ const productsPicLinksAndData = [
 	},
 	{
 		id: "11",
-		url: "../images/domfreez(1)b.png",
+		url: "http://radiovision.co.za/images/domfreez%20(1)b.png",
 		modelNum: "CF590",
 		type: "Domestic Freezer",
 		description: "Capacity: 590L. Pre-painted Galvanised Steel External Sides &;Internal. Durable Marble Patterned Lid. Ice Lined Evaporator With Static Rear Condenser. SABS Approved Key Lock. Spring Assisted Steel Hinges For Easy Opening.",
@@ -102,7 +102,7 @@ const productsPicLinksAndData = [
 	},
 	{
 		id: "12",
-		url: "../images/comfridge(2)b.png",
+		url: "http://radiovision.co.za/images/comfridge%20(2)b.png",
 		modelNum: "EF476",
 		type: "Commercial Fridges",
 		description: "Capacity: 540L. Chromadek Steel External Sides & Internal. Lighting LED Tube. (CFC Free. Cyclopentane Blown). Forced Air Corrosion Resistant Evaporator.",
@@ -111,7 +111,7 @@ const productsPicLinksAndData = [
 	},
 	{
 		id: "13",
-		url: "../images/comfridge(3)b.png",
+		url: "http://radiovision.co.za/images/comfridge%20(3)b.png",
 		modelNum: "ES1140",
 		type: "Commercial Fridges",
 		description: "Capacity: 762L. Pre-painted Galvanised Steel External & Internal. Lighting: LED. Forced Air Corrosion Resistant Evaporator Operates at 32°C and 60% Relative Humidity.",
@@ -120,7 +120,7 @@ const productsPicLinksAndData = [
 	},
 	{
 		id: "14",
-		url: "../images/comfridge(4)b.png",
+		url: "http://radiovision.co.za/images/comfridge%20(4)b.png",
 		modelNum: "ES 1360",
 		type: "Commercial Fridges",
 		description: "Capacity: 580L. Pre-painted Galvanised Steel External & Internal. Lighting: LED. Forced Air Corrosion Resistant Evaporator Operates at 32°C and 60% Relative Humidity.",
@@ -129,7 +129,7 @@ const productsPicLinksAndData = [
 	},
 	{
 		id: "15",
-		url: "../images/comfridge(5)b.png",
+		url: "http://radiovision.co.za/images/comfridge%20(5)b.png",
 		modelNum: "ES890",
 		type: "Commercial Fridges",
 		description: "Capacity: 580L. Pre-painted Galvanised Steel External & Internal. Lighting: LED. Forced Air Corrosion Resistant Evaporator.",
@@ -138,7 +138,7 @@ const productsPicLinksAndData = [
 	},
 	{
 		id: "16",
-		url: "../images/comfridge(6)b.png",
+		url: "http://radiovision.co.za/images/comfridge%20(6)b.png",
 		modelNum: "ES1135",
 		type: "Commercial Fridges",
 		description: "Capacity: 720L. Pre-painted Galvanised Steel External & Internal. Lighting LED. Temperature range 2-8°C &lt;= 32°C. 7 x 330ml can facing per shelf.",
@@ -147,7 +147,7 @@ const productsPicLinksAndData = [
 	},
 	{
 		id: "17",
-		url: "../images/comfridge(7)b.png",
+		url: "http://radiovision.co.za/images/comfridge%20(7)b.png",
 		modelNum: "EH365",
 		type: "Commercial Fridges",
 		description: "Capacity: 334L. Chromadek Steel External & Internal. Lighting: LED Tubes. Forced Air Corrosion Resistant Evaporator. Adjustable Shelves. Temperature 4°C.",
@@ -156,7 +156,7 @@ const productsPicLinksAndData = [
 	},
 	{
 		id: "18",
-		url: "../images/comfridge(8)b.png",
+		url: "http://radiovision.co.za/images/comfridge%20(8)b.png",
 		modelNum: "EH550",
 		type: "Commercial Fridges",
 		description: "Capacity: 226L. Chromadek Steel External & Internal. Lighting: LED Tubes. Forced Air Corrosion Resistant Evaporator. Adjustable Shelves. Temperature 4°C.",
@@ -165,7 +165,7 @@ const productsPicLinksAndData = [
 	},
 	{
 		id: "19",
-		url: "../images/comfridge(1)b.png",
+		url: "http://radiovision.co.za/images/comfridge%20(1)b.png",
 		modelNum: "EH650",
 		type: "Commercial Fridges",
 		description: "Capacity: 451L. Lighting LED Tubes. Temp Range between 2°C & 32°C. Forced Air Corrosion Resistant Evaporator. Chromadek Steel External & Internal.",
