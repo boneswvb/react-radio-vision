@@ -1,4 +1,7 @@
 import React from 'react'
+
+import { Helmet } from 'react-helmet';
+
 import services5 from '../images/services5.png';
 import services1 from '../images/services1.png';
 import services6 from '../images/services6.png';
@@ -8,6 +11,20 @@ import services8 from '../images/services8.png';
 const Services = () => {
 	return(
 		<div className="tc container">
+		<Helmet>
+      <meta name="robots" content="INDEX, FOLLOW" />
+      <meta name="keywords" content="service of fridges, service of washing machines,service of dish washer, service of tv, service of hi-fi, 
+        service of dvd, service of ice maker, service of inverters, service of tumble drier, insurance assessments, 
+        lg, samsung, defy, electrolux, kelvinator, aeg, bosch, siemens, miele, smeg" />
+      <meta name="description" content="Agents for LG household appliences and electronics - Radio Vision" />
+      <meta name="description" content="A React.js application" />
+      <meta name="subject" content="Repairs to digital goods" />
+      <meta name="copyright"content="Lesawi Services CC" />
+      <meta name="Classification" content="Business" />
+      <meta name="author" content="Wim von Benecke, info@lesawi.co.za" />
+      <meta name="designer" content="Wim von Benecke" />
+      <title>Services Offered By Radio Vision</title>
+    </Helmet>
 		<h1>Services offered by Radio Vision</h1>
 		<p>For service on most major brands Radio Vision is the right place to contact. </p>
 		<h2>Insurance assessments</h2>
@@ -30,7 +47,7 @@ const Services = () => {
 		<h2>Call out to your house or business</h2>
 		<p>You can book a call out by sending us an e-mail for attention Elize to
 		<a title="email adress for call outs" href="mailto:elize@radiovision.co.za"> elize@radiovision.co.za</a>, or
-		complete the online booking form.</p>
+			complete the online booking form.</p>
 		<p>We do calls to houses and businesses in the Nelspruit and White River areas.</p>
 		<p>We can also arrange for units to be picked up for larger repairs.</p>
 		<p>Call outs are only for large items like washing machines, tumble driers etc.</p>
@@ -52,6 +69,18 @@ const Services = () => {
 		<p>We will need the proof of purchase to verify that the unit is still under warrantee.</p>
 		<p>For TV's, Dvd's hi-fi's etc. you will have to bring the unit to our store, but for washing machines, 
 		tumble driers etc. we can come to your house if you reside in Nelspruit or White River.</p>
+	<div>        	
+		<h2>Domestic refrigeration</h2>
+		<p>We have a range of domestic fridges and freezers for sale.</p>
+		<p>Have a look at our products page for more detail and prices.</p>
+		<p>All our domestic units come with a two year manufacturers guarantee.</p>
+		<p>As far as possible the unit will be serviced at your house in the unfortunate event that the unit is defective.</p>
+		<h2>Commercial refrigeration</h2>
+		<p>We have a range of commercial fridges, freezers and back of bar unit for sale.</p>
+		<p>Have a look at our products page for more detail and prices.</p>
+		<p>All our domestic units come with a one year manufacturers guarantee.</p>
+		<p>As far as possible the unit will be serviced at your business in the unfortunate event that the unit is defective.</p>
+	</div>
 		</div>     
 	)
 }

@@ -7,7 +7,7 @@ const CommercialDeepFreezersContent = () => {
 
 	const CommercialDeepFreezersContentImg = allPhotos.map(data => {
 		return (
-			data.type === "Commercial Deep Freezers" ?
+			data.type === "Commercial Deep Freezer" ?
 			<CommercialDeepFreezers 
 				key={data.id}
 				id={data.id}
@@ -25,7 +25,7 @@ const CommercialDeepFreezersContent = () => {
 )
 
 	return(
-		<div className="tc">
+		<div className="tc productDisplay">
 			{CommercialDeepFreezersContentImg}			
 		</div>
 	)

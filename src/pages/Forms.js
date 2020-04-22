@@ -1,8 +1,24 @@
 import React from 'react'
 
+import { Helmet } from 'react-helmet';
+
 const Forms = (props) => {
 	return(
 		<div>
+		<Helmet>
+      <meta name="robots" content="INDEX, FOLLOW" />
+      <meta name="keywords" content="service of fridges, service of washing machines,service of dish washer, service of tv, service of hi-fi, 
+        service of dvd, service of ice maker, service of inverters, service of tumble drier, insurance assessments, 
+        lg, samsung, defy, electrolux, kelvinator, aeg, bosch, siemens, miele, smeg" />
+      <meta name="description" content="Agents for LG household appliences and electronics - Radio Vision" />
+      <meta name="description" content="A React.js application" />
+      <meta name="subject" content="Repairs to digital goods" />
+      <meta name="copyright"content="Lesawi Services CC" />
+      <meta name="Classification" content="Business" />
+      <meta name="author" content="Wim von Benecke, info@lesawi.co.za" />
+      <meta name="designer" content="Wim von Benecke" />
+      <title>Log a Service Call - Radio Vision</title>
+    </Helmet>
 			<form className="tc" name="serviceCall" method="POST" action="http://free.allforms.mailjol.net/u/422a2f17.php" autoComplete="on">
 				<h1 className="formh1">Log a service call Form</h1>
 				<h2 className="formh2">Please complete all the fields.</h2>
@@ -179,20 +195,6 @@ const Forms = (props) => {
 				<li><input type="submit" className="submit" id="submit" name="submit" value="Submit" /></li> 
 				</ol>  
 			</form>
-			<hr />
-			<p>Your fullName: { props.data.fullName }</p>
-			<p>Your email: { props.data.email }</p>
-			<p>Your contactNumber: { props.data.contactNumber }</p>
-			<p>Your address1: { props.data.address1 }</p>
-			<p>Your address2: { props.data.address2 }</p>
-			<p>Your address3: { props.data.address3 }</p>
-			<p>Your address4: { props.data.address4 }</p>
-			<p>Your typeofunit: { props.data.typeofunit }</p>
-			<p>Your typeofunit: { props.data.faultyUnit }</p>			
-			<p>Your inWarrantee: { props.data.warrantee }</p>
-			<p>Your insuranceYes: { props.data.insurance }</p>
-			<p>Your comment: { props.data.comment }</p>
-			<p>Your hearAboutUs: { props.data.hearAboutUs }</p>
 		</div>       
 	)
 }

@@ -25,7 +25,7 @@ const DomesticFreezersContent = () => {
 )
 
 	return(
-		<div className="tc">
+		<div className="tc productDisplay">
 			{DomesticFreezerImg}			
 		</div>
 	)

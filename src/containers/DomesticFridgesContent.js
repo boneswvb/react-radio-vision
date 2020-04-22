@@ -7,7 +7,7 @@ const DomesticFridgesContent = () => {
 
 const DomesticFridgesImg = allPhotos.map(data => {
 	return (
-		data.type === "Domestic Fridges" ?
+		data.type === "Domestic Fridge" ?
 		<DomesticFridges 
 			key={data.id}
 			id={data.id}
@@ -24,7 +24,7 @@ const DomesticFridgesImg = allPhotos.map(data => {
 })
 
 	return(
-		<div className="tc">
+		<div className="tc productDisplay">
 			{DomesticFridgesImg}			
 		</div>
 	)

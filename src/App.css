@@ -1,4 +1,4 @@
-h1, h2, h3{
+h1, h2, h3, h4{
   color: blue;
   text-decoration: underline;
   clear: both;
@@ -50,6 +50,20 @@ li {
   font-size: 7em; 
 }
 
+@media screen and (max-width: 480px) {
+  .logo {
+    font-size: 4em;
+  }
+}
+@media screen and (max-width: 320px) {
+  .logo {
+    font-size: 2em;
+  }
+  .adress p {
+    font-size: 1em;
+  }
+}
+
 .adress {
   margin: 0;
 	width: 34%;
@@ -72,6 +86,17 @@ li {
   justify-content: center;
 }
 
+@media screen and (max-width: 480px) {
+  .brandsContainer {
+     display: block;
+  }
+}
+@media screen and (max-width: 320px) {
+  .brandsContainer {
+     display: block;
+  }
+}
+
 .listleft {
   text-align: center;
   width: 20%;
@@ -91,6 +116,19 @@ li {
   margin: 2px;
   -webkit-box-shadow: 14px 13px 28px 0px rgba(0,0,0,0.34); 
   box-shadow: 14px 13px 28px 0px rgba(0,0,0,0.34);
+}
+
+@media screen and (max-width: 480px) {
+  .pic {
+    height: 75px;
+    width: 75px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .pic {
+    height: 50px;
+    width: 50px;
+  }
 }
 
 .dropdown {
@@ -191,13 +229,14 @@ select {
 }
 
 .refpic{
-  display: inline-block;
-  width: 30%;
-  margin-bottom: 5px;
+  width: 98%;
+  margin: 5px auto;
   border: 3px blue solid;
   border-radius: 30px;
-  line-height: 100%;
-  font-size: 16px;
+  line-height: 120%;
+  font-size: 18px;
+  padding: 10px;
+  background-color: #fff;
 }
 
 .fridgepic {
@@ -206,16 +245,33 @@ select {
 }
 
 .refpic1{
-  width: 30%;
-  display: inline-block;
-  margin-bottom: 5px;
+  width: 98%;
+  margin: 5px auto;
   border: 3px blue solid;
   border-radius: 30px;
-  line-height: 100%;
-  font-size: 12px;
+  line-height: 120%;
+  font-size: 18px;
+  padding: 10px;
+  background-color: #fff;
 }
 
 .freezpic {
   height: 220px;
   width: 200px;
+}
+
+.price {
+  color: blue;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 800px) {
+  .productDisplay {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-rows: auto;
+    border: 3px blue solid;
+    border-radius: 30px;
+  }
 }

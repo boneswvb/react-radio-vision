@@ -13,19 +13,19 @@ const MainMenu = () => {
 				<div className="dropdown">
 	        <Link to="/products"><button className="navbutton">Products</button></Link>
 		      <div className="dropdown-content">
-		        <a href="products.html#DomesticFridges">Domestic Fridges</a>
-		        <a href="products.html#DomesticFreezers">Domestic Freezers</a>
-		        <a href="products.html#CommercialFridges">Commercial Fridges</a>
-		        <a href="products.html#CommercialFreezers">Commercial Freezers</a>
-		        <a href="products.html#CommercialDeepFreezers">Commercial Deep Freezers</a>
-		        <a href="products.html#IcecreamFreezers">Icecream Freezers</a>
-		        <a href="products.html#BackOfBarFridges">Back Of Bar Fridges</a>
+		        <Link  to="/DomesticFridgesContent">Domestic Fridges</Link>
+		        <Link  to="/DomesticFreezersContent">Domestic Freezers</Link>
+		        <Link  to="/CommercialFridgesContext">Commercial Fridges</Link>
+		        <Link  to="/CommercialFreezersContent">Commercial Freezers</Link>
+		        <Link  to="/CommercialDeepFreezersContext">Commercial Deep Freezers</Link>
+		        <Link  to="/IcecreamFreezersContent">Icecream Freezers</Link>
+		        <Link  to="/BackOfBarFridgesContent">Back Of Bar Fridges</Link>
 	      	</div>                      
 	      </div>            
 	      <Link to="/services"><button className="navbutton">Services</button></Link>
-	      <Link to="/contacts"><button className="navbutton">Contacts</button></Link>            
+	      <Link to="/contacts"><button className="navbutton">Contact</button></Link>            
 		    <div className="dropdown">
-	      	<Link to="/forms"><button className="navbutton">Forms</button></Link>                
+	      	<Link to="/ServiceCallForm"><button className="navbutton">Forms</button></Link>                
 			    <div className="dropdown-content">        
 			      <Link to="/ServiceCallForm">Service Call</Link>
 			      <Link to="/GeneralInquiryForm">General Inquiry Form</Link>

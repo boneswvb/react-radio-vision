@@ -10,7 +10,7 @@ const Header = () => {
 						40 Mostert Street,
 						<br /> Nelspruit,
 						<br /> Sonheuwel,
-						<br /> 1201,
+						<br /> 1201
 						<br /> Telephone number: 013 752 7460 or 013 755 4727 
 					</p>			
 			</div>

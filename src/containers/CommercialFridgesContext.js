@@ -5,9 +5,9 @@ import CommercialFridges from '../components/CommercialFridges'
 const CommercialFridgesContext = () => {
 	const {allPhotos} = useContext(Context)
 
-	const DomesticFreezerImg = allPhotos.map(data => {
+	const CommercialFridgesImg = allPhotos.map(data => {
 		return (
-			data.type === "Commercial Fridges" ?
+			data.type === "Commercial Fridge" ?
 			<CommercialFridges 
 				key={data.id}
 				id={data.id}
@@ -25,8 +25,8 @@ const CommercialFridgesContext = () => {
 )
 
 	return(
-		<div className="tc">
-			{DomesticFreezerImg}			
+		<div className="tc productDisplay">
+			{CommercialFridgesImg}			
 		</div>
 	)
 }

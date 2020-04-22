@@ -7,7 +7,7 @@ const IcecreamFreezersContent = () => {
 
 	const IcecreamFreezersContentImg = allPhotos.map(data => {
 		return (
-			data.type === "Icecream Freezers" ?
+			data.type === "Icecream Freezer" ?
 			<IcecreamFreezers 
 				key={data.id}
 				id={data.id}
@@ -25,7 +25,7 @@ const IcecreamFreezersContent = () => {
 )
 
 	return(
-		<div className="tc">
+		<div className="tc productDisplay">
 			{IcecreamFreezersContentImg}			
 		</div>
 	)

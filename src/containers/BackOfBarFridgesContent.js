@@ -1,3 +1,4 @@
+
 import React, {useContext} from 'react'
 import {Context} from '../containers/Context'
 import BackOfBarFridges from '../components/BackOfBarFridges'
@@ -25,7 +26,7 @@ const BackOfBarFridgesContent = () => {
 )
 
 	return(
-		<div className="tc">
+		<div className="tc productDisplay">
 			{CommercialDeepFreezersContentImg}			
 		</div>
 	)

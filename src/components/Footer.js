@@ -6,7 +6,6 @@ const Footer = () => {
 		<div className="tc footer-container">
 			<div className="footer">
 	      <div>
-	        <Link to="/"><button>Back To Top</button></Link>
 	        <Link to="/"><button>Home Page</button></Link>
 	      </div>
 				<p>&copy;Designed by Wim von Benecke - 071  099 2811. Email: 
