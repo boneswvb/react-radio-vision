@@ -26,14 +26,12 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="tc">
       <Helmet>
-        <meta name="robots" content="INDEX, FOLLOW" />
         <meta name="keywords" content="service of fridges, service of washing machines,service of dish washer, service of tv, service of hi-fi, 
           service of dvd, service of ice maker, service of inverters, service of tumble drier, insurance assessments, 
           lg, samsung, defy, electrolux, kelvinator, aeg, bosch, siemens, miele, smeg" />
         <meta name="description" content="Agents for LG household appliences and electronics - Radio Vision" />
-        <meta name="description" content="A React.js application" />
         <title>Welcom to Radio Vision - Digital Electronics</title>
       </Helmet>
       <Header />
