@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-radio-vision/precache-manifest.664c7852ae4112b21a8b7f730c9088b2.js"
+  "/react-radio-vision/precache-manifest.1ff8ec7ed813f886d0ce30e1e52eadaf.js"
 );
 
 self.addEventListener('message', (event) => {
