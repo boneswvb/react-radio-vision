@@ -8,7 +8,7 @@ const MainMenu = () => {
 				<h3>Digital Electronics</h3>
 			</div> 
 			<div>
-	      <Link to="/"><button className="navbutton">Welcome</button></Link>    	
+	      <Link to="/react-radio-vision"><button className="navbutton">Welcome</button></Link>    	
 				<Link to="/about"><button className="navbutton">About</button></Link>
 				<div className="dropdown">
 	        <Link to="/products"><button className="navbutton">Products</button></Link>

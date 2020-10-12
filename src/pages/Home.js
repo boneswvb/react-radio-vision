@@ -10,7 +10,7 @@ import services8 from '../images/services8.png';
 import rightside1 from '../images/rightside1.png';
 import rightside2 from '../images/rightside2.png';
 
-const Index = () => {
+const Home = () => {
 	return(
 			<div className="tc container" id="container">
 			<Helmet>
@@ -79,4 +79,4 @@ const Index = () => {
 	</div>
 )}
 
-export default Index
+export default Home;

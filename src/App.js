@@ -6,7 +6,7 @@ import {Switch, Route} from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import MainMenu from './components/MainMenu'
-import Index from './pages/Index'
+import Home from './pages/Home'
 import About from './pages/About'
 import Products from './pages/Products'
 import Services from './pages/Services'
@@ -37,8 +37,8 @@ function App() {
       <Header />
       <MainMenu />
       <Switch>
-        <Route exact path="/">
-          <Index />
+        <Route exact path="/react-radio-vision">
+          <Home />
         </Route>
         <Route path="/about">
           <About />
